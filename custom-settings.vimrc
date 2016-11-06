@@ -1,7 +1,12 @@
+set nocompatible
+
 " tab settings
 set expandtab
 set shiftwidth=2
 set softtabstop=2
+
+" I want to backspace over more than what vi allows
+set backspace=indent,start
 
 " displays line/col #, etc.
 set ruler
@@ -23,9 +28,13 @@ set hlsearch
 
 " turn on syntax highlighting
 syntax on
+filetype on
 
 " aesthetics
 set background=dark
+
+" allows me to use the mouse to resize splits, among other things
+set mouse=a
 
 au BufNewFile,BufRead *.guile set filetype=scheme
 

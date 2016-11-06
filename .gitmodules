@@ -19,15 +19,6 @@
 [submodule "bundle/ctrlp"]
 	path = ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
-[submodule "bundle/a"]
-	path = a
-	url = https://github.com/vim-scripts/a.vim.git
-[submodule "bundle/fugitive"]
-	path = fugitive
-	url = https://github.com/tpope/vim-fugitive.git
-[submodule "delimitMate"]
-	path = delimitMate
-	url = https://github.com/Raimondi/delimitMate.git
 [submodule "bundle/tmux-navigator"]
 	path = tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator.git
