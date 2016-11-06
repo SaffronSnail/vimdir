@@ -28,3 +28,6 @@
 [submodule "bundle/gitgutter"]
 	path = gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "rust.vim"]
+	path = rust.vim
+	url = https://github.com/rust-lang/rust.vim.git
