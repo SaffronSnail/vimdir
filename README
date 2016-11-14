@@ -1,7 +1,7 @@
 This keeps all of my pathogen extensions as well as my vimrc, expressed by all of the .vimrc files in the directory. After installing pathogen, paste this code into .vimrc to activate:
 
 let VIMDIR="Enter the path to vimdir here!"
-execute pathogen#infect(VIMDIR + "/{}")
+execute pathogen#infect(VIMDIR . "/{}")
 
 let glob=VIMDIR . "/*.vimrc"
 for vimfile in split(glob(VIMDIR . "/*.vimrc"))
