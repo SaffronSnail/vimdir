@@ -4,6 +4,7 @@ set nocompatible
 set expandtab
 set shiftwidth=2
 set softtabstop=2
+set tabstop=2
 
 " I want to backspace over more than what vi allows
 set backspace=indent,start
