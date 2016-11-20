@@ -31,3 +31,6 @@
 [submodule "rust.vim"]
 	path = rust.vim
 	url = https://github.com/rust-lang/rust.vim.git
+[submodule "vim-pathogen"]
+	path = pathogen
+	url = https://github.com/tpope/vim-pathogen
