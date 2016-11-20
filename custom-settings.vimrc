@@ -37,6 +37,7 @@ set background=dark
 " allows me to use the mouse to resize splits, among other things
 set mouse=a
 
-au BufNewFile,BufRead *.guile set filetype=scheme
+set foldcolumn=2
 
+au BufNewFile,BufRead *.guile set filetype=scheme
 
