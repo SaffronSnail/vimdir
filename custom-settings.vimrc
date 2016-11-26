@@ -38,6 +38,7 @@ set background=dark
 set mouse=a
 
 set foldcolumn=2
+set colorcolumn=80
 
 au BufNewFile,BufRead *.guile set filetype=scheme
 
