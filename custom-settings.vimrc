@@ -18,6 +18,9 @@ set number
 " show commands as they're being typed
 set showcmd
 
+" allow vim-like keybindings
+bindkey -v
+
 " always show status line
 set laststatus=2
 
