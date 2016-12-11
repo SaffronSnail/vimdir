@@ -38,7 +38,9 @@ set background=dark
 set mouse=a
 
 set foldcolumn=2
+set foldmethod=syntax
 set colorcolumn=80
 
 au BufNewFile,BufRead *.guile set filetype=scheme
+au BufNewFile,BufRead *.gtest set filetype=cpp
 
